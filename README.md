@@ -1,7 +1,7 @@
 # whatsapp-node-api
 
 # Step 1 Install & Setup
-$ git clone https://github.com/pranavms13/whatsapp-node-api.git
+$ git clone https://github.com/itswaytoamit/whatsapp-node-api.git
 $ npm install
 $ cd whatsapp-node-api
 $ node api.js
@@ -32,7 +32,7 @@ I will be using Axios;
 
 // npm install axios
 const axios = require('axios');
-axios.post('http://localhost:5000/chat/sendmessage/1222222222', {
+axios.post('http://localhost:5000/chat/sendmessage/7837******', {
   message: 'Hello World',
 })
   .then(function (response) {
