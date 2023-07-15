@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itswaytoamit/whatsapp-node-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itswaytoamit/whatsapp-node-api/issues"
+  },
+  "homepage": "https://github.com/itswaytoamit/whatsapp-node-api#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "child_process": "^1.0.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "shelljs": "^0.8.5",
+    "valid-url": "^1.0.9",
+    "whatsapp-web.js": "^1.21.0"
+  }
+}
