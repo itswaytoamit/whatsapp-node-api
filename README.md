@@ -4,7 +4,7 @@
 $ git clone https://github.com/itswaytoamit/whatsapp-node-api.git
 $ npm install
 $ cd whatsapp-node-api
-$ node api.js
+$ node index.js
 
 # Step 2: authenticate
 We are ready. Whatsapp needs that you authenticate the desktop App to send messages to someone else, to do so first authenticate;
@@ -28,7 +28,7 @@ http://localhost:5000/auth/checkauth > CONNECTED
 Now we are ready to send our hello world.
 
 # 3 Send message
-I will be using Axios;
+By Axios method
 
 // npm install axios
 const axios = require('axios');
@@ -41,4 +41,5 @@ axios.post('http://localhost:5000/chat/sendmessage/7837******', {
   .catch(function (error) {
     console.log(error);
   });
-That’s it, check your messages;
+
+  
